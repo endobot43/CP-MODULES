@@ -5060,7 +5060,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   border-radius: 3px;
   -moz-border-radius: 3px;
   background-clip: padding-box;
-  background: #f8f9fa;
+  background: #424141;
   color: #ffffff;
   text-align: center;
   pointer-events: none;
