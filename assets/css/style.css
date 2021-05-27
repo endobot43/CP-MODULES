@@ -4960,7 +4960,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .ct-grid {
-  stroke: rgba(248, 249, 250, 0.09);
+  stroke: rgba(116, 119, 122, 0.09);
   stroke-width: 2px;
   stroke-dasharray: 3px;
 }
@@ -4973,8 +4973,8 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .ct-chart.simple-pie-chart-chartist .ct-label {
-  color: #ffffff;
-  fill: #ffffff;
+  color: #424141;
+  fill: #98a6ad;
   font-size: 16px;
 }
 
@@ -4982,55 +4982,55 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 .ct-chart .ct-series.ct-series-a .ct-line,
 .ct-chart .ct-series.ct-series-a .ct-point,
 .ct-chart .ct-series.ct-series-a .ct-slice-donut {
-  stroke: #5766da;
+  stroke: rgba(0, 173, 239, 0.7);
 }
 
 .ct-chart .ct-series.ct-series-c .ct-point,
 .ct-chart .ct-series.ct-series-c .ct-line {
-  stroke: #00adef;
+  stroke: #7a7a7a;
 }
 
 .ct-chart .ct-series.ct-series-b .ct-line,
 .ct-chart .ct-series.ct-series-b .ct-point,
 .ct-chart .ct-series.ct-series-d .ct-slice-donut {
-  stroke: #6c757d;
+  stroke: #dedede;
 }
 
 .ct-chart .ct-series.ct-series-c .ct-slice-donut {
-  stroke: #fa6b83;
+  stroke: #424141;
 }
 
 .ct-chart .ct-series.ct-series-d .ct-bar,
 .ct-chart .ct-series.ct-series-d .ct-line,
 .ct-chart .ct-series.ct-series-d .ct-point,
 .ct-chart .ct-series.ct-series-b .ct-slice-donut {
-  stroke: #f93b7a;
+  stroke: #aed6d2;
 }
 
 .ct-chart .ct-series.ct-series-e .ct-bar,
 .ct-chart .ct-series.ct-series-e .ct-line,
 .ct-chart .ct-series.ct-series-e .ct-point {
-  stroke: #ec408f;
+  stroke: rgba(250, 107, 131, 0.7);
 }
 
 .ct-chart .ct-series.ct-series-f .ct-bar,
 .ct-chart .ct-series.ct-series-f .ct-line,
 .ct-chart .ct-series.ct-series-f .ct-point {
-  stroke: #7043c1;
+  stroke: #a9a9a9;
 }
 
 .ct-chart .ct-series.ct-series-g .ct-bar,
 .ct-chart .ct-series.ct-series-g .ct-line,
 .ct-chart .ct-series.ct-series-g .ct-point {
-  stroke: #f70a58;
+  stroke: #dedede;
 }
 
 .ct-chart .ct-series.ct-series-b .ct-bar {
-  stroke: #00bcd4;
+  stroke: #7a7a7a;
 }
 
 .ct-chart .ct-series.ct-series-c .ct-bar {
-  stroke: #e9ebfa;
+  stroke: #dedede;
 }
 
 .ct-series-a .ct-area {
