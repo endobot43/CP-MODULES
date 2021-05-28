@@ -3843,23 +3843,23 @@ a.bg-secondary:focus, a.bg-secondary:hover, button.bg-secondary:focus, button.bg
   Range slider
 ===================*/
 .irs-from, .irs-to, .irs-single {
-  background: #5766da;
+  background: #424141;
 }
 
 .irs-from:after, .irs-to:after, .irs-single:after {
-  border-top-color: #5766da;
+  border-top-color: #a9a9a9;
 }
 
 .irs-min, .irs-max {
-  color: #a8a8b1;
-  background: #262b49;
+  color: #fff;
+  background: #a9a9a9;
 }
 
 /* ==============
   Powerange Slider
 ===================*/
 .range-bar {
-  background-color: #5d5b6f;
+  background-color: #aed6d2;
 }
 
 .range-handle {
@@ -3872,7 +3872,7 @@ a.bg-secondary:focus, a.bg-secondary:hover, button.bg-secondary:focus, button.bg
 }
 
 .range-quantity {
-  background-color: #5766da;
+  background-color: #aed6d2;
 }
 
 .slider-wrapper {
@@ -3894,7 +3894,7 @@ a.bg-secondary:focus, a.bg-secondary:hover, button.bg-secondary:focus, button.bg
 }
 
 .display-box {
-  background-color: #5766da;
+  background-color: #aed6d2;
   color: #ffffff;
   border-radius: 5px;
   font-size: 0.8em;
@@ -3918,7 +3918,7 @@ a.bg-secondary:focus, a.bg-secondary:hover, button.bg-secondary:focus, button.bg
   height: 40px;
   padding: 8px 10px;
   border: 1px solid #2d3356;
-  background-color: #dedede;
+  background-color: #a9a9a9;
   border-radius: 3px;
   font-weight: normal;
   color: #a8a8b1;
@@ -3926,7 +3926,7 @@ a.bg-secondary:focus, a.bg-secondary:hover, button.bg-secondary:focus, button.bg
 
 .dd3-content:hover,
 .dd-handle:hover {
-  background-color: #1b1f35;
+  background-color: #00adef;
   color: #5766da;
 }
 
@@ -4542,7 +4542,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 .datepicker table tr td.today.disabled:hover, .datepicker table tr td.today:hover, .datepicker table tr td.selected,
 .datepicker table tr td.selected.disabled, .datepicker table tr td.selected.disabled:hover,
 .datepicker table tr td.selected:hover {
-  background-color: #5766da !important;
+  background-color: #00adef !important;
   background-image: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -4595,7 +4595,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
-  background-color: #5766da;
+  background-color: #00adef;
 }
 
 .daterangepicker td.available:hover,
@@ -9085,6 +9085,10 @@ color: #00adef;
 
 .text-grey {
   color: #444444;
+}
+
+.text-dkgrey {
+  color: #424141;
 }
 
 .text-white {
