@@ -1,6 +1,10 @@
 # CP-MODULES
 
-This is a compiled set of chart.js modules and chartist modules
+This is a compiled set of chart.js modules, chartist modules, and BS4 Components
+
+--> the 'assets' folder should reside at the same level as the .html documents.
+
+--> All HTML docs from this point forward will share the same assets folder --> be sure to update whenever a new html file is added to the series @ root.
 
 --> Chart.js and Chartist markup starts @ line 174.  Look to the comments for style control and
 setting static values for display input valdation.
