@@ -12,10 +12,6 @@ setting static values for display input valdation.
 --> NOTE: the assets folder has been leaned out to remove as much non-essentials as
 possible... this includes icons. therefore no icons will appear in the rendered view.
 
---> the 'assets' folder should reside at the same level as the .html documents.
-
---> All HTML docs from this point forward will share the same assets folder --> be sure to update whenever a new html file is added to the series @ root.
-
 
 
 /   /                     /   /
