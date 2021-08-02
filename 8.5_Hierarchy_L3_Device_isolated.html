@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Product Details - Common Portal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+            <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="assets/css/vendor/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/vendor/cryptocurrency-icons.css">
+
+        <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+
+    <!-- Helper CSS -->
+    <link rel="stylesheet" href="assets/css/helper.css">
+
+    </head>
+
+        <!-- Top Bar Start -->
+        <body class="blk5">
+
+        <!-- Top Bar -->
+       <div class="w100 page-wrapper fixed-top">
+            <nav class="navbar-custom dark-fill ht75">
+                <ul class="list-unstyled topbar-nav float-right">
+
+                    <li class="dropdown float-right">
+                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false">
+                            <i class="mdi mdi-bell-outline nav-icon"></i>
+                            <span class="badge badge-danger badge-pill noti-icon-badge">3</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+                            <!-- item-->
+                            <h5 class="dropdown-item-text ml-0">
+                                Notifications (3)
+                            </h5><br />
+                            <div class="slimscroll notification-list">
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-dark"><i class="dripicons-flashlight icon-blue"></i></div>
+                                    <p class="notify-details">Explore your new home page<small class="text-muted">Customize your page, set up your Dashboard, and learn more for a simple and smooth set up.</small></p>
+                                </a><br />
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-dark"><i class="dripicons-gear icon-danger"></i></div>
+                                    <p class="notify-details">Finish Your Preferences<small class="text-danger">You have 3 tasks to complete.</small></p>
+                                </a><br />
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-dark"><i class="mdi mdi-glass-cocktail icon-blue"></i></div>
+                                    <p class="notify-details">Your items have shipped<small class="text-muted">Check Status and Updates</small></p>
+                                </a><br />
+                                <!-- item-->
+                            </div><br />
+                            <!-- All-->
+                            <div class="d-flex flex-row p3 vmiddle">
+                                <a href="javascript:void(0);" class="dropdown-item text-left text-custom font-20">
+                                View all
+                                <i class="dripicons-arrow-thin-right icon-blue font-30 vmiddle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/users/Kirsten-Ghallagher.png" alt="profile-user" class="rounded-circle" /> 
+                            <span class="ml-1 nav-user-name hidden-sm"> <i class="mdi mdi-chevron-down"></i> </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"><i class="dripicons-user text-muted mr-2"></i> Profile</a>
+                            <a class="dropdown-item" href="#"><i class="dripicons-gear text-muted mr-2"></i> Settings</a>
+                            <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted mr-2"></i> Lock screen</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted mr-2"></i> Logout</a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle nav-link" id="mobileToggle">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </li>    
+                </ul>
+            <!-- Main Navigation-->
+                <div class="container d-flex flex-row">
+                        <a href="#" class="logo pt-4">
+                            <span>
+                                <img src="assets/images/VF-logo-white.png" style="max-width:70%;" alt="logo-small" class="logo-sm">
+                            </span>
+                        </a>
+                    <div id="navigation">
+                    <!-- Notify Menu-->
+                    <ul class="navigation-menu list-unstyled">
+                        <li class="has-submenu">
+                            <a href="7_e_active_ENT_CP.html">
+                                <i class="mdi mdi-chart-bell-curve"></i>Dashboard</a>
+                            <ul class="submenu">
+                                <li><a href="7_e_active_ENT_CP.html">At a Glance</a></li>
+                                <li><a href="6_e2_active_SMB_CP_vhq_dvc_1.html">Device Activity</a></li>
+                                <!--<li><a href="index-3.html">Dashboard 3</a></li>-->
+                            </ul>
+                        </li>
+            
+                        <li class="has-submenu">
+                            <a href="#"><i class="mdi mdi-cellphone-key"></i>Device Management</a>
+                            <ul class="submenu">
+                                <!--<li><a href="app-chat.html">Chat</a></li>
+                                <li><a href="app-calendar.html">Calendar</a></li>--> 
+                            <li><a href="#">Status & Health</a></li>
+                            <li><a href="#">Administrative Functions</a></li>
+                        </li>
+                            <li><a href="app-contact-list.html">Orders & Deployment Status</a></li>
+                                <li><a href="app-contact-list.html">Upgrades & Add-ons</a></li>
+                            </ul>
+                        </li>
+            
+                        <li class="has-submenu">
+                            <a href="#"><i class="mdi mdi-buffer"></i>Transactions</a>
+                            <ul class="submenu">
+                                <li><a href="#">Entity / Region / Zone</a></li>
+                                <li><a href="#">Type</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="#"><i class="mdi mdi-cards-playing-outline"></i>Support Center</a>
+                            <ul class="submenu">                                        
+                                <li>
+                                    <ul>
+                                        <li>
+                                        <a href="#">Chat with Support<i class="mdi mdi-chat ml-3 my-0" style="font-size:30px;"></i></a>
+                                        </li>
+                                        <li><a href="ui-other-clipboard.html">Jira Service Desk</a></li>  
+                                        <li><a href="ui-other-animation.html">Search Support Articles</a></li>
+                                        <li><a href="ui-other-avatar.html">Open Orders and Order Status</a></li>
+                                    </ul>
+                                </li>                                        
+                            </ul>
+                        </li>
+                        
+                        <li class="has-submenu">
+                            <a href="#"><i class="mdi mdi-cart-plus"></i>Marketplace</a>
+                            <ul class="submenu">                                        
+                                <li class="has-submenu">
+                                    <a href="#">Applications</a>
+                                    <ul class="submenu">
+                                        <li><a href="product-index.html">Android Devices</a></li>
+                                        <li><a href="icons-dripicons.html">Engage Devices</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">Accessories</a>
+                                    <ul class="submenu">
+                                        <li><a href="tables-basic.html">Cables & Connectors</a></li>
+                                        <li><a href="tables-datatable.html">Mounts and Stands</a></li>
+                                        <li><a href="tables-responsive.html">Security</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- End navigation menu -->
+                </div> <!-- end navigation -->
+            </div><!--end page-wrapper-inner -->
+        </nav>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Page Content-->
+    <div class="container pt-4">
+                <div class="container-fluid pt-4"> 
+                    <div class="col-lg-9 pt-4">
+                        <div class="row pt-4">
+                            <div class="col-lg-4">
+                                <h1 class="pro-title text-dark">Store X: P400</h1>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="checkbox pt-3 pl-3">
+                                    <div class="custom-control custom-checkbox pt-3 pl-4">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck02" data-parsley-multiple="groups" data-parsley-mincheck="2">
+                                        <label class="custom-control-label" for="customCheck02">Flag Device</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body-details">
+                                    <div class="row">
+                                        <div class="row col-lg-4 pl-4">
+                                            <img src="assets/images/products/p400.png" alt="" height="450">
+                                            <div class="row justify-content-center">
+                                                <div class="col-sm-4 d-inline-flex">
+                                                    <img src="assets/images/products/p400.png" alt="" height="85">
+                                                    <img src="assets/images/products/p400.png" alt="" height="85">
+                                                    <img src="assets/images/products/p400.png" alt="" height="85">
+                                                </div>
+                                            </div>
+                                        </div><!--end col-->
+                                    
+                                    <div class="col-lg-8 align-self-start pt-4 pl-4">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#details" role="tab">Device Detail</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#custody" role="tab">Chain of Custody</a>
+                                        </li>                                             
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#action" role="tab">Inspection Detail</a>
+                                        </li>
+                                    </ul>
+                                    
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="details" role="tabpanel">
+                                            <div class="table-responsive">
+                                                <table class="table mb-0 table-centered">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>Device Model</td>
+                                                        <td>P400 @2.0.2756</td>
+                                                        <td></td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Serial Number/Device ID</td>
+                                                        <td>123-456-789 / 1</td>
+                                                        <td></td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Hardware Part Number</td>
+                                                        <td>401 448 965</td>
+                                                        <td></td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Location</td>
+                                                        <td>AUS  /  Sydney  /  Zone2  /  Region1 / Store X</td>
+                                                        <td></td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Last Inspection</td>
+                                                        <td>18 hours ago      16/11/2019 09:26:07</td>
+                                                        <td></td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>OS Version</td>
+                                                        <td>1.13.0 (Latest)</td>
+                                                        <td></td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Payment Application Version</td>
+                                                        <td>2.12.1 (Latest)</td>
+                                                        <td></td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>General Description</td>
+                                                        <td>This is a general descripton about this P400 device</td>
+                                                        <td></td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table><!--end /table-->
+                                            </div><!--end /tableresponsive-->
+                                        </div>
+
+
+                                        <div class="tab-pane" id="custody" role="tabpanel">
+                                            <div class="table-responsive">
+                                                <table class="table mb-0 table-centered">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table><!--end /table-->
+                                            </div><!--end /tableresponsive-->
+                                        </div>
+
+
+
+
+                                        <div class="tab-pane" id="action" role="tabpanel">
+                                            <div class="table-responsive">
+                                                <table class="table mb-0 table-centered">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Property</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td>value</td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="dropdown d-inline-block float-right">
+                                                                <a class="nav-link dropdown-toggle arrow-none" id="dLabel4" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v font-20 text-muted"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table><!--end /table-->
+                                        </div><!--end /tableresponsive-->
+                                    </div>
+                                </div>   
+                            </div><!--end col-->                                            
+                        </div><!--end row-->
+                    </div><!--end card-body-->
+                </div><!--end card-->
+
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="pro-title mb-4  text-dark">App & Software Stats.</h3>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <button type="button" class="pro-order-box d-flex w-100" data-toggle="modal" data-target="#exampleModal2">
+                                    <div class="ml-3 text-left">
+                                        <td>Flash 80%</td>
+                                        <div class="progress" style="height: 18px;">
+                                            <div class="progress-bar  progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 180px;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="col-lg-4">
+                                <button type="button" class="pro-order-box d-flex w-100" data-toggle="modal" data-target="#exampleModal2">
+                                    <div class="ml-3 text-left">
+                                        <td>RAM 50%</td>
+                                        <td>
+                                            <div class="progress" style="height: 18px;">
+                                                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 150px;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </td>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="col-lg-4">
+                                <button type="button" class="pro-order-box d-flex w-100" data-toggle="modal" data-target="#exampleModal2">
+                                    <div class="ml-3 text-left">
+                                        <td>Battery 75%</td>
+                                        <td>
+                                            <div class="progress" style="height: 18px;">
+                                                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 160px;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </td>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div><!--end card-body-->
+                </div><!--end card-->
+
+             <div class="col-lg-12">
+                <div id="yourorders" class="mb-4">
+                    <div class="card-body">
+                        <h3 class="pro-title mb-4  text-dark">Lifecycle / COD status Example - placeholder </h3>
+                        <ol class="c-progress-steps">
+                        <li class="c-progress-steps__step  done">Received</li>
+                        <li class="c-progress-steps__step  done">Inspected</li>
+                        <li class="c-progress-steps__step  current">New Unit Shipped</li>
+                        <li class="c-progress-steps__step">Delivered</li>
+                    </ol>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card-body mb-0 shadow-none">
+                                <div class="" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-soft-info btn-lg text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Tracking Report<i class="mdi mdi-gesture-double-tap font-20 ml-1"></i>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">    
+                                    <div class="tracking-timeline">
+                                        <ul class="timeline 8">
+                                            <li>
+                                                <p class="timeline-date">30 March 2021</p>
+                                                <div class="timeline-content">
+                                                    <div class="track-info">
+                                                        <div class="text-muted float-right">
+                                                            <p class="mb-1">5:15PM</p>
+                                                            <span>T-No:1254326541253</span>
+                                                        </div>
+                                                        <h5 class="mt-0 mb-1 ml-0 text-white">Delivered </h5>
+                                                        <p class="mb-0">San Francisco, California</p>
+                                                    </div>  
+                                                    <div class="track-info">
+                                                        <div class="text-muted float-right">
+                                                            <p class="mb-1">9:10AM</p>
+                                                            <span>T-No:3521486514458</span>
+                                                        </div>
+                                                        <h5 class="mt-0 mb-1 ml-0 text-white">Delivered </h5>
+                                                        <p class="mb-0">Tel Aviv, Israel</p>
+                                                    </div>                                                        
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p class="timeline-date">3 March 2021</p>
+                                                <div class="timeline-content">
+                                                    <div class="track-info">
+                                                        <div class="text-muted float-right">
+                                                            <p class="mb-1">4:35PM</p>
+                                                            <span>T-No:6574148212355</span>
+                                                        </div>
+                                                        <h5 class="mt-0 mb-1 ml-0 text-white">In Transit: ETA 4/1/2021</h5>
+                                                        <p class="mb-0">Gujarat, India</p>
+                                                    </div>                                                         
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+        <!-- end page content -->
+
+
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/waves.min.js"></script>
+        <script src="assets/js/jquery.slimscroll.min.js"></script>
+
+            <!-- Global Vendor, plugins & Activation JS -->
+        <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/vendor/popper.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <!-- Plugins & Activation JS For Only This Page -->
+        <script src="assets/js/plugins/jsgrid/jsgrid.min.js"></script>
+        <script src="assets/js/plugins/jsgrid/jsgrid-db.js"></script>
+        <script src="assets/js/plugins/jsgrid/jsgrid.active.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/main.js"></script>
+        <!--Plugins JS-->
+        <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+        <script src="assets/js/plugins/tippy4.min.js.js"></script>
+
+
+    </body>
+</html>
